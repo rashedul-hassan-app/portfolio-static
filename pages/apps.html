@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ramadan Checklist</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: #f8f9fa;
+        }
+        .iphone-img {
+            max-width: 90%;
+            height: auto;
+        }
+        .store-buttons {
+            margin-top: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+        }
+        .features, .faq {
+            padding: 50px 20px;
+        }
+        .footer {
+            background: #343a40;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Ramadan Checklist</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <section class="hero">
+        <div class="container">
+            <h1 class="mb-4">Ramadan Checklist</h1>
+            <p class="lead">A simple checklist app to help you track your Ramadan goals.</p>
+  
+            <img class="iphone-img" src="/img/phone_mockup_1.png" alt="Ramadan Checklist App">
+
+            <div class="store-buttons">
+                <div>
+                    <a href="https://apps.apple.com/us/app/ramadan-checklist/id1507752850?itscg=30200&itsct=apps_box_badge&mttnsubad=1507752850" style="display: inline-block;">
+                        <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/white/en-us?releaseDate=1586822400" 
+                             alt="Download on the App Store" 
+                             style="width: 200px; height: auto;"/>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://play.google.com/store/apps/details?id=com.rashed.RamadanChecklist&hl=en_GB&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" style="display: inline-block;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" 
+                             alt="Get it on Google Play" 
+                             style="width: 200px; height: auto;"/>
+                    </a>
+                </div>
+            </div>
+           
+           
+            
+            
+        </div>
+    </section>
+    
+    <section class="features" id="features">
+        <div class="container text-center">
+            <h2>App Features</h2>
+            <p>Keep track of your Ramadan progress easily.</p>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <h4>Daily Checklists</h4>
+                    <p>Mark off prayers, fasting, and charity tasks.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Streaks & Rewards</h4>
+                    <p>Stay motivated with streaks and trophies.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Community Support</h4>
+                    <p>Get reminders and encouragement from others.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="faq" id="faq">
+        <div class="container text-center">
+            <h2>Frequently Asked Questions</h2>
+            <div class="accordion mt-4" id="faqAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                            Is the app free to use?
+                        </button>
+                    </h2>
+                    <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">Yes! Ramadan Checklist is completely free.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq2">
+                            Will my progress be saved?
+                        </button>
+                    </h2>
+                    <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">Your progress is saved in google servers.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <p>&copy; 2025 Ramadan Checklist | <a href="https://www.facebook.com/ramadan.checklist.mobile/" class="text-white">Contact Developer</a></p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
